@@ -19,7 +19,7 @@ body {
 .hero {
     width: 100%;
     background-color:#1D3557;
-    background-image: url("images/waynesville-overlay.jpg");
+    background-image: url("waynesville-overlay.jpg");
     background-size: contain;
     height: 700px;
     color: red;
@@ -140,7 +140,7 @@ body {
 
 .froggy {
     width: 100%;
-    background-image: url("images/frog-rock.jpg");
+    background-image: url("frog-rock.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -261,7 +261,7 @@ body {
 
 footer {
     width: 100%;
-    background-image: url(images/fallvalley.jpg);
+    background-image: url(fallvalley.jpg);
     background-position: center;
     background-size: cover;
     height: 400px;
