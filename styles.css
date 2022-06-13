@@ -1,0 +1,337 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+}
+
+.hero {
+    width: 100%;
+    background-color:#1D3557;
+    background-image: url("images/waynesville-overlay.jpg");
+    background-size: contain;
+    height: 700px;
+    color: red;
+    position: relative;
+   
+}
+ .section-heading {
+     font-size: 3.5rem;
+     font-weight: 700;
+     font-family: "Noto, serif";
+     margin: 0;
+     z-index: 2;
+ }
+
+.banner {
+    width: 80%;
+    background: #E63946;
+    color: white;
+    max-width: 80%;
+    justify-content: space-around;
+    opacity: .8;
+    transform: translateY(350px);
+    padding: 15px 20px;
+    margin: 0 auto;
+    border: solid white 2px;
+    
+}
+
+.hero-span {
+    padding: 0 10px;
+}
+
+#hero-link {
+    display: inline-block;
+    background-color: #1D3557;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 30px 20px;
+    text-align: center;
+    transform: translateY(350px);
+    border: solid white 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+ 
+}
+
+#hero-link:hover {
+    border: dotted red 2px;
+    cursor: pointer;
+      
+}
+
+.deco-bar-white,
+.deco-bar-red,
+.deco-bar-navy {
+    width: 100%;
+    height: 20px;
+ 
+}
+
+.deco-bar-white {
+    transform: translateY(20px);
+}
+
+.deco-bar-red {
+    transform: translateY(-40px);
+}
+
+.color-bg-navy {
+    background-color: #1D3557;
+}
+
+.color-bg-red {
+    background-color: #E63946;
+}
+
+.color-bg-blue {
+    background-color: #457B9D;
+}
+
+.color-bg-white {
+    background-color: white;
+}
+
+
+.location {
+    width: 100%;
+    background-color: #1D3557;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    margin-top: -20px;
+    gap: 40px;
+}
+
+.location-img {
+    width: 21.25rem;
+    height: 20.5rem;
+    border-radius: 20px;
+   
+}
+
+.location p {
+    width: 350px;
+    color: white;
+    text-align: left;
+}
+
+.location span {
+    color: #E63946;
+    font-size: 1.2em;
+}
+
+.froggy {
+    width: 100%;
+    background-image: url("images/frog-rock.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top:-20px;
+    
+      
+}
+
+.froggy-container {
+    margin: 0;
+    width: 25rem;
+    background-color: #A8DADC;
+    padding: 15px 30px;
+    transform: translate(300px, -50px);
+    opacity: .8;
+    border: solid 1px #1D3557;
+    
+}
+
+.froggy p {
+    color: #1D3557;
+    font-family: "lato", sans-serif;
+    font-size: 1.25rem;
+   
+}
+
+.divider  {
+    width: 100%;
+    height: 120px;
+    padding-top: 40px;
+  
+}
+
+.divider h1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    color: #A8DADC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.cards-container {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.cards {
+    background-color:#1D3557;
+    width: 360px;
+    height: 500px;
+    border: 10px solid #E63946;
+
+}
+
+.cards h3 {
+    color: #A8DADC;
+    font-family: 'noto', serif;
+    margin-bottom: 40px;
+}
+
+.card-img {
+    width: 340px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.cards p {
+    width: 270px; 
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: left;
+    line-height: 1.4;
+    
+}
+
+.deco-bar-footer {
+    width: 100%;
+    height: 30px;
+   
+}
+
+.footer-divider {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.footer-text h2 {
+    color: #1D3557;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.footer-text {
+    margin-top: -60px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.footer-text p {
+    color: #E63946;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-image: url(images/fallvalley.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+footer p {
+    color: #1D3557;
+    font-size: 48px;
+    padding-top: 180px;
+    text-shadow: 0 0 8px white;
+}
+
+footer p:hover {
+    color: #E63946;
+}
+footer a {
+    text-decoration: none;
+}
+
+/*================================
+-----MEDIA QUERY------------------
+=================================*/
+@media screen and (max-width: 700px) {
+
+    .location {
+        flex-direction: column;
+        padding: 80px 0;
+    
+    }
+
+    .froggy {
+        width: 100%;
+        background-size: fill;
+        background-repeat: no-repeat;
+        padding-bottom: 40px;
+    }
+
+    .froggy-container {
+        transform: none !important;
+        padding: 0;
+        margin:0;
+        
+    }
+    .froggy p {
+        font-size: .8rem;
+        text-align: left;
+        text-shadow: 0 0 2px #496263;
+        
+    }
+
+    .divider h1 {
+        font-size: 40px;
+    }
+
+    
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    footer p {
+        font-size: 36px;
+    }
+
+}
