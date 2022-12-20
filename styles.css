@@ -17,7 +17,7 @@ body {
 }
 
 .hero {
-    width: 100%;
+    width: 100vw;
     background-color:#1D3557;
     background-image: url("waynesville-overlay.jpg");
     background-size: contain;
@@ -124,6 +124,7 @@ body {
     width: 21.25rem;
     height: 20.5rem;
     border-radius: 20px;
+    object-fit: cover;
    
 }
 
@@ -309,6 +310,7 @@ footer a {
     .froggy p {
         font-size: .8rem;
         text-align: left;
+        padding-left: 10px;
         line-height: 1.2rem;
         text-shadow: 0 0 2px #496263;
         
