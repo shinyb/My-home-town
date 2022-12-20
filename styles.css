@@ -302,13 +302,14 @@ footer a {
 
     .froggy-container {
         transform: none !important;
-        padding: 0;
-        margin:0;
+        padding: 10px;
+        margin-inline: auto;
         
     }
     .froggy p {
         font-size: .8rem;
         text-align: left;
+        line-height: 1.2rem;
         text-shadow: 0 0 2px #496263;
         
     }
@@ -321,6 +322,7 @@ footer a {
     .cards-container {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
     
     .footer-text {
